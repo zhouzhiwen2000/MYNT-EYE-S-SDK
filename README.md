@@ -1,3 +1,10 @@
+# Note
+This fork contains a non-API version of ROS wrapper for the use of VINS-Fusion and other projects.
+
+The topics are cut down to three, the left and right cameras, and the IMU.
+
+This non-API version enables use of higher versions of OpenCV alongside the SDK.
+
 # MYNT® EYE S SDK
 
 [![](https://img.shields.io/badge/MYNT%20EYE%20S%20SDK-2.5.0-brightgreen.svg?style=flat)](https://github.com/slightech/MYNT-EYE-S-SDK)
