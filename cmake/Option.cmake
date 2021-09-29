@@ -20,7 +20,7 @@ include(${CMAKE_CURRENT_LIST_DIR}/Utils.cmake)
 
 # build components
 
-option(WITH_API "Build with API layer, need OpenCV" ON)
+option(WITH_API "Build with API layer, need OpenCV" OFF)
 option(WITH_DEVICE_INFO_REQUIRED "Build with device info required" ON)
 
 option(WITH_CAM_MODELS "Build with more camera models, WITH_API must be ON" ON)
